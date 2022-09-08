@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+@font-face {
+    font-family: Bungee;
+    src: url('../font/Bungee/Bungee-Regular.ttf');
+  }
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 750px;
+    align-items: center;
+    justify-content: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(rgba(2,0,36,1) 0%, rgba(44,143,173,1) 41%, rgba(0,212,255,1) 100%);
+}
+
+h1 {  
+    justify-content: center;
+    font-family: 'Bungee', cursive;
+     margin-top: -300px;  
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#todoItens {
+    width: 500px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: -10px;
+    border: 10px solid black;
+    background-color: rgb(5, 5, 5);
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px rgb(24, 24, 24);
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 5px;
+}
+
+#btnAdd {
+    width: 70px;
+    height: 40px;
+    background-color: rgb(44, 143, 173);
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(253, 253, 253);
+}
+
+#todoList {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.h3-style {
+    display: flex;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 420px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    color: #000;
+}
+
+.btnAlterar {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 34px;
+    margin: -57px 0px 0px 330px;
+    background-color: rgb(253, 169, 13);
+    color: #000;
+    border-radius: 8px;
+    font-family: 'Bungee', cursive;
+
+}
+
+.btnExcluir {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 34px;
+    margin: -57px 0px 0px 380px;
+    background-color: red;
+    color: #000;
+    border-radius: 8px;
+    font-family: 'Bungee', cursive;
+
+}
